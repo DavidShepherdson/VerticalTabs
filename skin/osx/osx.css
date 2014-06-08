@@ -18,10 +18,10 @@
     margin: 0 !important;
     padding: 0 !important;
     background: transparent !important;
-    background-color: #333 !important;
+    background-color: #d4dde5 !important;
 }
 .tabbrowser-tabs:-moz-window-inactive {
-    background-color: #333 !important;
+    background-color: #e8e8e8 !important;
 }
 
 .tabbrowser-arrowscrollbox > .arrowscrollbox-scrollbox {
@@ -45,7 +45,7 @@
     -moz-box-pack: start;
     -moz-box-flex: 0;
     -moz-appearance: none !important;
-    background: #333 !important;
+    background: transparent !important;
     -moz-border-top-colors: none !important;
     -moz-border-bottom-colors: none !important;
     -moz-border-right-colors: none !important;
@@ -97,14 +97,13 @@
 
 .tabbrowser-tab[selected="true"],
 .tabbrowser-tab[multiselect="true"] {
+    border-top: 1px solid #94A1C0 !important;
     background: -moz-linear-gradient(top, #A0B0CF, #7386AB) repeat-x !important;
-    background: #222 !important;
-
 }
 .tabbrowser-tab[selected="true"]:-moz-window-inactive,
 .tabbrowser-tab[multiselect="true"]:-moz-window-inactive {
+    border-top: 1px solid #979797 !important;
     background: -moz-linear-gradient(top, #B4B4B4, #8A8A8A) repeat-x !important;
-    background: #222 !important;
 }
 
 .tab-background-start, .tab-background-middle, .tab-background-end {
@@ -130,14 +129,14 @@
     list-style-image: none !important;
     width: 14px;
     height: 14px;
-    opacity: 0.27;  /* turn black into #b9b9b9 */
+    gopacity: 0.27;  /* turn black into #b9b9b9 */
 }
 .tab-close-button:active {
-    opacity: 0.46;  /* turn black into #8a8a8a */
+    gopacity: 0.46;  /* turn black into #8a8a8a */
 }
 .tabbrowser-tab[selected="true"] .tab-close-button,
 .tabbrowser-tab[multiselect="true"] .tab-close-button {
-    background-image: url("resource://verticaltabs/skin/osx/closetab-white.svg");
+    background-image: url("resource://verticaltabs/skin/osx/closetab-white.svg") !important;
     opacity: 0.8;
 }
 
@@ -188,7 +187,7 @@
 .tab-text {
     font-size: 11px;
     font-weight: normal !important;
-    color: #BBB !important;
+    color: #000000 !important;
     text-shadow: none !important;
     margin-bottom: 1px;
     text-align: left !important;
@@ -196,7 +195,7 @@
 .tabbrowser-tab[selected="true"] .tab-text,
 .tabbrowser-tab[multiselect="true"] .tab-text {
     font-weight: bold !important;
-    color: #DDD !important;
+    color: #ffffff !important;
     text-shadow: 0 1px #404040 !important;
 }
 
@@ -213,7 +212,7 @@
 #TabsToolbar[tabsontop="false"]:not(:-moz-lwtheme),
 #TabsToolbar[tabsontop="false"]:not(:-moz-lwtheme):-moz-window-inactive {
     background: none;
-    background-color: #4C9ED9;
+    background-color: transparent;
 }
 
 #verticaltabs-groupbutton {
