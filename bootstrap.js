@@ -41,7 +41,7 @@ Cu.import("resource://gre/modules/Services.jsm");
 const RESOURCE_HOST = "verticaltabs";
 const PREF_BRANCH = "extensions.verticaltabs.";
 const DEFAULT_PREFS = {
-  "extensions.verticaltabs.width": 250,
+  "extensions.verticaltabs.width": 300,
   "extensions.verticaltabs.right": false,
   "browser.tabs.drawInTitlebar": false,
 };

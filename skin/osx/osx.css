@@ -192,6 +192,7 @@
     margin-bottom: 1px;
     text-align: left !important;
 }
+
 .tabbrowser-tab[selected="true"] .tab-text,
 .tabbrowser-tab[multiselect="true"] .tab-text {
     font-weight: bold !important;
@@ -323,3 +324,4 @@
 .verticaltabs-twisty:active {
     opacity: 1.0;
 }
+
