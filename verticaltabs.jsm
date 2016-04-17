@@ -126,6 +126,9 @@ VerticalTabs.prototype = {
         case "light":
           stylesheet = "resource://verticaltabs/skin/light/light.css";
           break;
+        case "traditional-osx":
+          stylesheet = "resource://verticaltabs/skin/traditional-osx/traditional-osx.css";
+          break;
       }
 
       return stylesheet;

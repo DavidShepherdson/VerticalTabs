@@ -11,6 +11,7 @@
       <menuitem value="default" label="Default" />
       <menuitem value="dark" label="Dark" />
       <menuitem value="light" label="Light" />
+      <menuitem value="traditional-osx" label="Traditional OS X" />
       </menupopup>
     </menulist>
   </setting>
