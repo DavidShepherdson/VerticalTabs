@@ -1,19 +1,17 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 #nav-bar {
-    background-image: url('chrome://browser/skin/Toolbar-background-noise.png'), linear-gradient(#D6D6D6, #D3D3D3) !important;
+    box-shadow: none;
 }
 
 #nav-bar:-moz-window-inactive {
-    background-image: url('chrome://browser/skin/Toolbar-background-noise.png'), linear-gradient(#F2F2F2, #D3D3D3) !important;
+    box-shadow: none;
 }
 
 #tab-view-deck {
     height: 44px !important;
 }
 
-/* Background colour for the tree sidebar (light blue when window is
-   active, grey otherwise) */
 .tabbrowser-tabs {
     margin: 0 !important;
     padding: 0 !important;
@@ -31,13 +29,18 @@
 
 /* Use the splitter to display the border of .tabbrowser-tabs */
 #verticaltabs-splitter {
-    width: 1px !important;
-    min-width: 1px !important;
-    background-image: none;
-    background-color: #404040;
+  -moz-appearance: none;
+  background-image: none;
+  background-color: none;
+  border: 0;
+  min-width: 3px;
+  width: 3px;
+  -moz-margin-start: -3px;
+  position: relative;
+  -moz-border-end: #404040;
 }
 #verticaltabs-splitter:-moz-window-inactive {
-    background-color: #868686;
+    background-color: transparent;
 }
 
 /* Style tabs themselves.  Get rid of most of the initial XUL styling */

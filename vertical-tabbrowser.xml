@@ -59,7 +59,7 @@
       <xul:arrowscrollbox anonid="arrowscrollbox"
                           flex="1"
                           xbl:inherits="orient"
-                          style="min-width: 1px;"
+                          style="min-width: 40px;"
                           clicktoscroll="true"
                           class="tabbrowser-arrowscrollbox">
         <children includes="tab"/>
@@ -147,7 +147,7 @@
                 let tab = this.childNodes[i];
                 tab.style.MozMarginStart = "";
               }
-  
+
               this.style.MozPaddingStart = "";
             }
           }
