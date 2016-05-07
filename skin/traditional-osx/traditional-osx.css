@@ -29,13 +29,14 @@
 
 /* Use the splitter to display the border of .tabbrowser-tabs */
 #verticaltabs-splitter {
+  background-image: none !important;
+  background-color: #404040 !important;
   -moz-appearance: none;
   background-image: none;
   background-color: none;
   border: 0;
-  min-width: 3px;
-  width: 3px;
-  -moz-margin-start: -3px;
+  width: 1px !important;
+  min-width: 1px !important;
   position: relative;
   -moz-border-end: #404040;
 }
@@ -102,6 +103,7 @@
 .tabbrowser-tab[multiselect="true"] {
     border-top: 1px solid #94A1C0 !important;
     background: -moz-linear-gradient(top, #A0B0CF, #7386AB) repeat-x !important;
+    box-shadow: none !important;
 }
 .tabbrowser-tab[selected="true"]:-moz-window-inactive,
 .tabbrowser-tab[multiselect="true"]:-moz-window-inactive {
@@ -125,7 +127,7 @@
     display: -moz-box;
     margin-left: 3px;
     margin-top: 1px;
-    background-image: url("resource://verticaltabs/skin/osx/closetab.svg") !important;
+    background-image: url("resource://verticaltabs/skin/traditional-osx/closetab.svg") !important;
     background-position: center right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -139,7 +141,7 @@
 }
 .tabbrowser-tab[selected="true"] .tab-close-button,
 .tabbrowser-tab[multiselect="true"] .tab-close-button {
-    background-image: url("resource://verticaltabs/skin/osx/closetab-white.svg") !important;
+    background-image: url("resource://verticaltabs/skin/traditional-osx/closetab-white.svg") !important;
     opacity: 0.8;
 }
 
@@ -206,7 +208,7 @@
 
 /* Drop indicator for drag'n'drop of tabs */
 .tab-drop-indicator {
-    list-style-image: url("resource://verticaltabs/skin/osx/dropmarker.png");
+    list-style-image: url("resource://verticaltabs/skin/traditional-osx/dropmarker.png");
     margin-top: -12px !important; /* height of the above image */
     margin-bottom: 0 !important;
 }
@@ -217,6 +219,11 @@
 #TabsToolbar[tabsontop="false"]:not(:-moz-lwtheme):-moz-window-inactive {
     background: none;
     background-color: transparent;
+}
+
+#TabsToolbar {
+    border-top: 1px solid rgba(0,0,0,0.15) !important;
+    display: none;
 }
 
 #verticaltabs-groupbutton {
@@ -315,7 +322,7 @@
 }
 
 .verticaltabs-twisty {
-    list-style-image: url("resource://verticaltabs/skin/osx/twisty.png");
+    list-style-image: url("resource://verticaltabs/skin/traditional-osx/twisty.png");
     opacity: 0.38;
     -moz-transition-property: -moz-transform;
     -moz-transition-duration: .1s;

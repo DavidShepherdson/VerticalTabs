@@ -19,6 +19,11 @@ SOURCES = \
 	skin/osx/dropmarker.png \
 	skin/osx/osx.css \
 	skin/osx/twisty.png \
+	skin/traditional-osx/closetab-white.svg \
+	skin/traditional-osx/closetab.svg \
+	skin/traditional-osx/dropmarker.png \
+	skin/traditional-osx/traditional-osx.css \
+	skin/traditional-osx/twisty.png \
 	skin/win7/dropmarker.png \
 	skin/win7/twisty-collapsed.png \
 	skin/win7/twisty.png \
