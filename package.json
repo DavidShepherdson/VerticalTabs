@@ -1,11 +1,11 @@
 {
 	"title": "Vertical Tabs Reloaded",
 	"name": "vertical-tabs-reloaded",
-	"id": "verticaltabsreloaded@go-dev.de",
+	"id": "verticaltabs@shepherdson.name",
 	"description": "This Firefox add-on arranges tabs in a vertical rather than horizontal fashion.",
-	"homepage": "https://github.com/Croydon/vertical-tabs-reloaded",
-	"icon": "resource://verticaltabsreloaded-at-go-dev-dot-de/data/icon.png",
-	"author": "Croydon",
+	"homepage": "https://github.com/DavidShepherdson/VerticalTabs",
+	"icon": "resource://verticaltabs-at-shepherdson-dot-name/data/icon.png",
+	"author": "David Shepherdson",
 	"license": "MPL-2.0",
 	"version": "0.7.1",
 	"permissions": 

@@ -78,7 +78,7 @@
 		<constructor>
 		<![CDATA[ 
 			Cu.import("resource://gre/modules/Services.jsm");
-			Services.scriptloader.loadSubScript("resource://verticaltabsreloaded-at-go-dev-dot-de/lib/xbl.js", this);
+			Services.scriptloader.loadSubScript("resource://verticaltabs-at-shepherdson-dot-name/lib/xbl.js", this);
 		]]>	
 		</constructor>
       <field name="mTabstripHeight">0</field>
