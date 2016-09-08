@@ -1,0 +1,9 @@
+.git
+.github
+.gitignore
+.jpmignore
+*~
+*.DS_Store
+*.xpi
+build
+src

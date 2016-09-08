@@ -1,3 +1,5 @@
 build
 *~
-skin/.DS_Store
+*.DS_Store
+*.xpi
+install.rdf
