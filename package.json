@@ -65,6 +65,10 @@
 			{
 				"value": "linux",
 				"label": "Linux"
+			},
+			{
+				"value": "traditional-osx",
+				"label": "Traditional OS X"
 			}
 		]
 	},
