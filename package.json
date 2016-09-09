@@ -7,7 +7,7 @@
 	"icon": "resource://verticaltabs-at-shepherdson-dot-name/data/icon.png",
 	"author": "David Shepherdson",
 	"license": "MPL-2.0",
-	"version": "0.7.1",
+	"version": "0.7.1-P1",
 	"permissions": 
 	{
 		"private-browsing": true,
