@@ -37,11 +37,10 @@
     min-width: 1px;
     width: 1px;
     position: relative;
-    -moz-border-end: #404040;
 }
 
 #verticaltabs-splitter:-moz-window-inactive {
-    background-color: transparent;
+    background-color: rgb(128,128,128);
 }
 
 /* Style tabs themselves.  Get rid of most of the initial XUL styling */
