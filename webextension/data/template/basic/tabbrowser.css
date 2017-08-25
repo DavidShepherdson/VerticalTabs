@@ -1,0 +1,35 @@
+body {
+	margin: 0 0 0 0 !important;
+	padding: 0 !important;
+	background: transparent !important;
+	background-color: var(--vtr-tabbrowser-background-color) !important;
+}
+
+/* Tab toolbar styling */
+#TabsToolbar:not(:-moz-lwtheme)  {
+	flex: 0 1 var(--vtr-tabbar-height) !important;
+	height: var(--vtr-tabbar-height);
+	border-bottom-left-radius: 0px !important;
+	box-shadow: none !important;
+	appearance: none !important;
+	border-top: 1px solid rgb(160,160,160) !important;
+	-moz-border-right-colors: #fcfcfc rgb(154,154,154) !important;
+	background-color: var(--vtr-tabbar-background-color) !important;
+	background-image: none !important;
+}
+
+/* Seperator between tabbar and website */
+#verticaltabs-splitter {
+	min-width: var(--vtr-splitter-width) !important;
+	width: var(--vtr-splitter-width) !important;
+	border-top: none !important;
+	border-bottom: none !important;
+	border-left: var(--vtr-splitter-border-left-size) solid var(--vtr-splitter-border-left-color) !important;
+	border-right: var(--vtr-splitter-border-right-size) solid var(--vtr-splitter-border-right-color) !important;
+	background: var(--vtr-splitter-background) !important;
+	margin: 0 !important;
+	-moz-border-top-colors: none !important;
+	-moz-border-left-colors: none !important;
+	-moz-border-right-colors: none !important;
+	-moz-border-bottom-colors: none !important;
+}

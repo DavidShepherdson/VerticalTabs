@@ -39,7 +39,6 @@
 	}
 }
 
-
 .tab-icon-sound[soundplaying] {
 	list-style-image: url("resource://verticaltabsreloaded-at-go-dev-dot-de/webextension/data/chrome/icon/tab-audio-playing.svg") !important;
     -moz-context-properties: fill !important;

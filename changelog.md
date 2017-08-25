@@ -1,5 +1,94 @@
 # Changelog
 
+### v0.8.4.1, 2017-08-14
+ * fixed: audio playing icons not visible (#97)
+ * fixed: tabbrowser didn't hide in fullscreen in Firefox stable (#110)
+
+
+***
+
+
+### v0.8.4, 2017-08-06
+ * added: add toolbar button to toggle sidebar
+ * added: hidden experiment add-on flag
+   * enforce debugging, hidden settings and experiment flag to true for Firefox Nightly
+   * enforce debugging and hidden settings for Firefox Beta
+ * internal: continue rewriting add-on as a WebExtension (#13)
+   * manage hotkey by WebExtension
+   * manage window events by WebExtension
+   * implement correct sorting of tabs - keep it dynamically up to date on tab moves
+   * implement tab toolbar with a new tab button
+     * make it possible to place it at top, bottom and hide it completely (#57)
+   * create new tab by clicking on free space within the tab browser (#17)
+   * scroll selected tabs automatically into view
+
+
+***
+
+
+### v0.8.3.1, 2017-05-21
+ * fixed: fallback to default settings when no values saved by user (#86)
+ * fixed: potential endless spamming in the console
+ * this version is commit a137da8 + backported commit 87bf4f4
+
+
+***
+
+
+### v0.8.3, 2017-04-23
+ * added: feature to display tab status (loaded, unloaded, unread, busy) (#67)
+ * added: possibility to show hidden settings in settings UI
+ * added: minimal changed version of the icons
+ * fixed: error when hotkey is invalid or non-existing (#72)
+ * fixed: use toolkit.cosmeticAnimations.enabled in FF55+ (#83)
+ * internal: continue rewriting add-on as a WebExtension (#13)
+   * make WebExtensions main settings manager
+   * removed: settings in the legacy storage
+
+
+***
+
+
+### v0.8.2, 2017-03-30
+ * change default hotkey for hiding the tabbrowser to Control+Shift+V (#13)
+   * the former hotkey is not compatible with the WebExtension APIs
+ * fixed: show checkboxes on the settings page
+ * fixed: hide tabs in fullscreen
+
+
+***
+
+
+### v0.8.1, 2017-03-28
+ * internal: continue rewriting add-on as a WebExtension (#13)
+   * manage settings UI by WebExtension
+   * move default settings restore function to WebExtension
+   * move more settings logic to WebExtension
+   * handle debug output by WebExtension
+
+
+***
+
+
+### v0.8.0, 2017-01-09
+ * internal: start rewriting add-on as a WebExtension (#13)
+   * sync settings between the legacy SDK and the new WebExtension part
+     * this is critical to release as soon as possible, so that in the best case nobody will lose their settings in the end of 2017
+     * At the end of 2017 non-WebExtensions will stop working. Data migration won't be possible either afterwards
+
+
+***
+
+
+### v0.7.1, 2016-10-09
+ * themes improvements:
+   * Dark theme:
+     * fixed: close button displayed wrong on low resolution displays running Windows 7
+
+
+***
+
+
 ### v0.7.0, 2016-07-01
  * added: compact mode, hide text labels on tabs for a minimal tab sidebar (#55)
  * added: preference to display tab toolbar at top (new default) or at bottom (#46)
@@ -32,7 +121,7 @@
    * Darwin, Linux, Windows themes:
      * add blue left border to pinned tabs (#32)
  * fixed: don't spam the console with debug output
- * internal: some refactoring for more efficient code 
+ * internal: some refactoring for more efficient code
 
 
 ***
